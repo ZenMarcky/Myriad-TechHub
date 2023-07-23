@@ -539,6 +539,7 @@ background-color: orange;
     margin: 10vmax 0vmax 5vmax 0vmax;
 }
 .blogContent{
+    min-height: 40vh;
     height: auto;
     width: 100%;
     display: flex;
@@ -707,6 +708,11 @@ justify-content: center;
             background-color: blue;
             border-radius: 0.6vmax;
         }
+        .blogContent img{
+            width: 85%;
+            height: 50vh;
+            border-radius: 0.8vmax;
+        }
 }
 @media screen and (max-width:500px){
     .bestSallingCardContainer{
@@ -815,5 +821,9 @@ justify-content: center;
         font-size: 3vmax !important;
        font-weight: 500; 
     }
- 
+    .blogContent img{
+        width: 85%;
+        height: 40vh;
+        border-radius: 0.8vmax;
+    }
 }
