@@ -87,10 +87,10 @@ transition: 1s;
 padding: 0.2vmax 0vmax;
 }
 .landingLink a:hover{
+text-shadow:  1px 1px 16px orange;
+opacity: 1;
 
-box-shadow: 1px 1px 16px orange;
-background-color: orange;
-color: white;
+color: orange;
 border-radius: 0.3vmax;
 }
 
