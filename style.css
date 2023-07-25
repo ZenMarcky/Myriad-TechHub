@@ -565,6 +565,7 @@ min-height: 62vh;
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    margin-bottom: 1vmax;
 }
 .blogContent img{
     width: 85%;
