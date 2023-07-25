@@ -545,9 +545,13 @@ border-radius: 1vmax;
 border: 1px solid orange;
 background-color: orange;
 }
+.blogBody{
+    height: auto;
+ 
+}
 .blogContainer{
     height: auto;
-    min-height: 100vh;
+min-height: 62vh;
     width: 100%;
     margin: 10vmax 0vmax 5vmax 0vmax;
 }
@@ -564,7 +568,8 @@ background-color: orange;
 }
 .blogContent img{
     width: 85%;
-    height: 121vh;
+    height: 58vmax;
+   
     border-radius: 0.8vmax;
 }
 .blogDescription{
@@ -661,7 +666,7 @@ justify-content: center;
     font-size: 1vmax;
     color: rgb(154, 153, 153);
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:912px){
     .landingPage h1 {
         font-size: 6vmax;
         letter-spacing: 0.3vmax;
@@ -726,7 +731,101 @@ justify-content: center;
             height: 50vh;
             border-radius: 0.8vmax;
         }
+    .detailBody{
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: black;
+        margin-top: 6vmax;
+    }
+    .detail{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .delivery{
+
+        width: 100%;
+    height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+       background-color: rgb(255, 165, 0, 0.8);
+        color: rgb(245, 245, 245);
+        border-radius: 0vmax 0vmax 0vmax 0vmax ;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 500;
+     
+    }
+
+    .productDetail{
+        list-style-type: circle;
+        width: 30vmax;
+        min-height: 30vmax;
+    color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        font-size: 1.6vmax;
+    
+    }
+    .productDetail ul{
+        margin-left: 1.4vmax;
+        color:  rgb(152, 151, 151);
+        font-size: 1.7vmax;
+    }
+    .productDetail a {
+        
+        padding: 1.5vmax 0.8vmax;
+        border-radius: 0.6vmax;
+        text-decoration:  none;
+        background-color: blue;
+        color: white;
+        font-size: 2vmax;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+    .detailName{
+        font-size: 3vmax !important;
+        font-weight: 500;
+    }
+    .detailPrice{
+        font-size: 3vmax !important;
+       font-weight: 500; 
+    }
+   
+    .imageContainer{
+        width: 50vmax;
+        height: auto;
+   margin-right: 5vmax;
+    }
+    
+    .tableContainer{
+        width: 50vmax;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    }
+    .overviewContent{
+        height: auto;
+        width: 100%;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    }
 }
+
 @media screen and (max-width:500px){
     .bestSallingCardContainer{
         padding: 0vmax 2.8vmax;
@@ -773,6 +872,7 @@ justify-content: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: black;
         margin-top: 6vmax;
+      
     }
     .detail{
         width: 100%;
@@ -781,7 +881,7 @@ justify-content: center;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        
+     
     }
     .delivery{
 
@@ -834,12 +934,13 @@ justify-content: center;
         font-size: 3vmax !important;
        font-weight: 500; 
     }
-    .blogContent img{
-        width: 85%;
-        height: 40vh;
-        border-radius: 0.8vmax;
-    }
- 
+    
+ .blogContent img{
+    width: 85%;
+    height: 36.5vmax;
+   
+    border-radius: 0.8vmax;
+}
     .contactLanding{
         height: 100vh;
         width: 85%;
@@ -877,22 +978,6 @@ border-radius: 1vmax;
     transition: 0.8s;
     font-size: 2.5vmax;
 }
-.imageContainer{
-    width: 50vmax;
-    height: auto;
-   
-    padding-right: 1vmax;
-}
-
-.tableContainer{
-    width: 50vmax;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-flex-wrap: wrap;
-
-}
 .overviewContent{
     height: auto;
     width: 100%;
@@ -901,4 +986,28 @@ display: flex;
 align-items: flex-start;
 justify-content: space-evenly;
 }
+.imageContainer{
+    width: 45vmax;
+    height: auto;
+   
+margin-right: 1.3vmax;
+}
+.tableContainer{
+    width: 50vmax;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+
+
+}
+
+.tableContainer table{
+    border-collapse: collapse;
+    margin-bottom: 1vmax;
+ width: 20vmax;
+ color: white;
+}
+
 }
