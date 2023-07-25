@@ -512,7 +512,7 @@ font-size: 1.6vmax;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 2vmax;
+
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
@@ -520,7 +520,7 @@ font-size: 1.6vmax;
 .contactLanding p{
   margin: 1.5vmax 0vmax;
   line-height: 2.6vmax;
-   
+  font-size: 2vmax;
 }
 .contactHeading{
     font-size: 3.5vmax !important;
@@ -537,7 +537,7 @@ border: 1px solid orange;
 border-radius: 1vmax;
     padding: 1vmax 2vmax;
     transition: 0.8s;
-    
+    font-size: 1.4vmax;
 }
 .contactLanding a:hover{
 
@@ -839,4 +839,66 @@ justify-content: center;
         height: 40vh;
         border-radius: 0.8vmax;
     }
+ 
+    .contactLanding{
+        height: 100vh;
+        width: 85%;
+        margin: auto;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+   .contactLanding p{
+  margin: 1.6vmax 0vmax;
+  line-height: 3.8vmax;
+  font-size: 2.8vmax;
+}
+.contactHeading{
+    font-size: 4.5vmax !important;
+    color: orange !important;
+    margin: 0vmax !important;
+    font-weight: 500;
+
+
+}
+.contactLanding a{
+    text-decoration: none;
+    color: orange;
+border: 1px solid orange;
+border-radius: 1vmax;
+    padding: 1vmax 2vmax;
+    transition: 0.8s;
+    font-size: 2.5vmax;
+}
+.imageContainer{
+    width: 50vmax;
+    height: auto;
+   
+    padding-right: 1vmax;
+}
+
+.tableContainer{
+    width: 50vmax;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+.overviewContent{
+    height: auto;
+    width: 100%;
+
+display: flex;
+align-items: flex-start;
+justify-content: space-evenly;
+}
 }
