@@ -314,6 +314,7 @@ color: rgb(255, 166, 0);
 .productListCard img{
     width: 100%;
 height: auto;
+
 }
 .productTypeName{
     display: flex;
